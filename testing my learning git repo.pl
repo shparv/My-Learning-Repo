@@ -28,4 +28,15 @@ Your change passes through three zones on your computer — Working Files → St
     Analogy: Think of it like packing a suitcase. You lay out clothes (Working Files), choose what to pack (Staging), zip up the suitcase (Commit), then check it in at the airport (Push).
 
 
+Sometimes the repo you want to work on isn't yours — it belongs to another person or an organization. You can't push directly to a repo you don't own. The fix is a two-step move:
+
+    Fork — make your own copy of the repo on GitHub (remote → remote). This copy lives under your GitHub account, and you can push to it.
+    Clone — download your fork to your computer (remote → local), so you can edit it in VS Code.
+
+Original repo (someone else's)      Your fork (yours, on GitHub)      Your laptop
+┌──────────────────────────┐  Fork  ┌────────────────────────┐  Clone  ┌──────────────┐
+│  github.com/them/project │ ─────► │ github.com/you/project │ ──────► │  VS Code     │
+└──────────────────────────┘        └──────────…
+
+
 
